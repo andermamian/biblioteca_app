@@ -1,0 +1,22 @@
+name: biblioteca_app
+description: Biblioteca Escolar - sistema de prestamos de libros (Fase 3)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:     # calendario y diálogos en español (viene con el SDK)
+    sdk: flutter
+  cupertino_icons: ^1.0.8    # iconos de estilo iOS
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0      # reglas de análisis estático
+
+flutter:
+  uses-material-design: true
